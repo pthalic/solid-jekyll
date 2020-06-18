@@ -3,15 +3,15 @@
 # Setup
 title:               Prabhanjan Mutalik
 tagline:             
-description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
-url:                 'http://minicomp.github.io'
-baseurl:             '/ed'
+description:         ''
+url:                 'http://pthalic.github.io'
+baseurl:             '/pthalic'
 
 # About/contact
 author:
-  name:              Alex Gil
-  url:               https://twitter.com/elotroalex
-  email:             colibri.alex@gmail.com
+  name:
+  url:
+  email:
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
 color-scheme: blue
