@@ -4,6 +4,7 @@ title: Dreams
 author: Langston Hughes
 editor: Alex Gil
 source: Project Guttenberg
+tags: social
 ---
 
 - Hold fast to dreams

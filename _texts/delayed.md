@@ -4,6 +4,7 @@ title: Delayed till she had ceased to know
 author: Emily Dickinson
 editor: Alex Gil
 source: "Bartleby.com"
+tags: science 
 ---
 
 - DELAYED till she had ceased to know,

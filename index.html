@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Ed."
+title: "Prabhanjan Mutalik"
 ---
 <div class="introduction">
   <h1>hi.</h1>
@@ -23,12 +23,13 @@ title: "Ed."
   <h2>sample texts</h2>
   <ul class="texts">
   {% for item in site.texts %}
-
+  {% if item.tags contains "main" %}
     <li class="text-title">
       <a href="{{ site.baseurl }}{{ item.url }}">
         {{ item.title }}
       </a>
     </li>
+    {% endif %}
   {% endfor %}
   </ul>
 </div>
