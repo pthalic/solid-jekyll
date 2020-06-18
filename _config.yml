@@ -4,11 +4,11 @@
 title:               Prabhanjan Mutalik
 tagline:             
 description:         ''
-url:                 'http://pthalic.github.io'
-baseurl:             '/pthalic'
+url:                 ''
+baseurl:             ''
 
 # About/contact
-author:
+author:            Prabhanjan Mutalik
   name:
   url:
   email:
