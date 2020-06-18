@@ -8,8 +8,8 @@ url:                 ''
 baseurl:             ''
 
 # About/contact
-author:            Prabhanjan Mutalik
-  name:
+author:
+  name:              Prabhanjan Mutalik
   url:
   email:
 
