@@ -5,6 +5,8 @@ author: Frederick Douglass
 editor: Alex Gil
 rights: Public Domain
 source: Project Guttenberg
+tags: main
+category: neuroscience 
 publication-date: 2016
 toc:
 - Title Page

@@ -4,7 +4,7 @@ title: A Julia de Burgos
 author: Julia de Burgos
 editor: Alex Gil
 source: Ciudad Seva
-tags: natural, geography
+tags: science, geography
 ---
 
 - Ya las gentes murmuran que yo soy tu enemiga

@@ -1,6 +1,0 @@
----
-layout: human
-title: Humanities
-
----
-

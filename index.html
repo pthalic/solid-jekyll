@@ -10,8 +10,7 @@ title: "Prabhanjan Mutalik"
   editors based on <a href="http://go-dh.github.io/mincomp/">minimal computing principles</a>, and
   focused on legibility, durability, ease and flexibility. Our underlying technology is easy to
   learn and teach, and can produce beautifully rendered scholarly or reading editions of texts meant
-  to last. To start using Ed, please see <a href="{{ site.baseurl }}/documentation/">our
-  documentation</a> for installation instructions and more. To learn more about the ideas behind Ed
+  to last. To start using Ed, please see my <a href="{{ site.baseurl }}/cv/">CV</a> for installation instructions and more. To learn more about the ideas behind Ed
   and a list of current features see our <a href="{{ site.baseurl }}/about/">about</a> section. To
   see Ed in action, we've provided some sample minimal editions for you below.
 </p>
@@ -19,11 +18,11 @@ title: "Prabhanjan Mutalik"
 
 <hr>
 
-<div class="toc">
+<!--<div class="toc">
   <h2>sample texts</h2>
   <ul class="texts">
   {% for item in site.texts %}
-  {% if item.tags contains "main" %}
+  {% if item.tags[0] contains "main" %}
     <li class="text-title">
       <a href="{{ site.baseurl }}{{ item.url }}">
         {{ item.title }}
@@ -33,3 +32,28 @@ title: "Prabhanjan Mutalik"
   {% endfor %}
   </ul>
 </div>
+-->
+
+
+
+
+<div class="toc">
+  <!--<ul class="texts">-->
+      
+  {% assign groups = site.texts | group_by:"category" %}
+  {% for group in groups %}
+  {% if group.name == "machine learning" or group.name == "neuroscience" or group.name == "complex systems" or group.name == "public health" %}
+  
+          <h2>{{group.name | upcase}}</h2>
+      {% for item in group.items %}
+              <li class="text-title">
+              <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+              </li>
+      {% endfor %}
+      
+    {% endif %}
+  {% endfor %}
+
+ <!-- </ul> -->
+</div>
+

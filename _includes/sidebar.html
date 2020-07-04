@@ -20,8 +20,8 @@
 
     {% assign pages_list = site.pages | sort:"url" %}
     {% for node in pages_list %}
-      {% if node.title != null and node.url != "/404.html" %}
-      {% if node.layout == "page" or node.layout == "natural"  or node.layout == "social" or node.layout == "human" %}
+    {% if node.title != null and node.url != "/404.html"  %}
+      {% if node.layout == "page" or node.layout == "science"  or node.layout == "society" or node.layout == "culture" %}
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
         {% endif %}
       {% endif %}
