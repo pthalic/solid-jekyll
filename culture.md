@@ -1,6 +1,4 @@
 ---
 layout: culture
 title: Culture
-
 ---
-

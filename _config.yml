@@ -28,6 +28,16 @@ collections:
   texts:
     output: true
 
+  science:
+    output: true
+
+  society:
+    output: true
+
+  culture:
+    output: true
+
+
 # Markdown specs
 markdown: kramdown
 

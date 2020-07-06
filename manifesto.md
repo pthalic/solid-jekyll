@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Preface
+title: Manifesto
 ---
 
 One of our most pressing and ever-evolving needs as scholars is to pass on our textual artifacts

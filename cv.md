@@ -91,10 +91,10 @@ _In collaboration with KTH Royal Institute of Technology_ <br>
 
 # **Previous Projects**
 
-- **Temporal Sequences in the Brain:** An investigation into the role of sequential activity in the brain and its effect on behaviour. The project sought to review the existing literature and identify neural sequences using the Tempotron learning rule.
-- **Biologically Plausible Learning Algorithms:** The project surveys and tests the latest biologically plausible models in deep learning with the aim of finding the optimal model that satisfies the computational requirements simultaneously maintaining fidelity to the biological structure.
-- **Neuroevolution Algorithm for Time Series Prediction:** The aim of the project was to compare Back-propagation Algorithm and Evolutionary Algorithms in the context of time series prediction.
-- **Translation Optimization based on Language Similarity:** Machine Translation (a Seq2Seq TensorFlow model) was optimized based on the distance between the languages on the language tree.
+- [**Temporal Sequences in the Brain**](https://www.researchgate.net/publication/324648419_Temporal_Sequences_in_the_Brain): An investigation into the role of sequential activity in the brain and its effect on behaviour. The project sought to review the existing literature and identify neural sequences using the Tempotron learning rule.
+- [**Biologically Plausible Learning Algorithms**](https://www.researchgate.net/publication/336737416_Biologically_Plausible_Learning_Algorithms): The project surveys and tests the latest biologically plausible models in deep learning with the aim of finding the optimal model that satisfies the computational requirements simultaneously maintaining fidelity to the biological structure.
+- [**Neuroevolution Algorithm for Time Series Prediction**](https://www.kth.se/social/files/5c0f81f856be5b31deb0900f/Mutalik_comparison-bpa-neuroevolution.pdf): The aim of the project was to compare Back-propagation Algorithm and Evolutionary Algorithms in the context of time series prediction.
+- [**Translation Optimization based on Language Similarity**](https://www.researchgate.net/publication/342699316_Predicting_Translation_Performance_using_Language_Similarity): Machine Translation (a Seq2Seq TensorFlow model) was optimized based on the distance between the languages on the language tree.
 
 ---
 

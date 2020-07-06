@@ -10,14 +10,12 @@ layout: default
 <div class="toc">
     <h2>Culture</h2>
     <ul class="texts">
-        {% for item in site.texts %}
-        {% if item.tags[0] contains "human" %}
+        {% for item in site.culture %}
         <li class="text-title">
             <a href="{{ site.baseurl }}{{ item.url }}">
                 {{ item.title }}
             </a>
         </li>
-        {% endif %}
         {% else %}
         <p>The collection is empty.</p>
         {% endfor %}
