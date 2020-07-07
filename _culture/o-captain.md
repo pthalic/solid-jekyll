@@ -5,7 +5,7 @@ author: Walt Whitman
 editor: Alex Gil
 source: Poetry Foundation
 tags: culture
-category: 
+category: Folklore
 ---
 
 - O Captain! my Captain! our fearful trip is done;[^fn1]

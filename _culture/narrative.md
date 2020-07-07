@@ -6,7 +6,7 @@ editor: Alex Gil
 rights: Public Domain
 source: Project Guttenberg
 tags: society
-category: neuroscience 
+category: Literature 
 publication-date: 2016
 toc:
 - Title Page
