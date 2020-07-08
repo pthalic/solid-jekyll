@@ -790,13 +790,15 @@ li.prose-indent {
 /* Blue */
 .theme-base-blue .sidebar,
 .theme-base-blue .sidebar-toggle:active {
-  background-color: #6a9fb5;
+  // background-color: #6a9fb5;
+ background-color: #78a8bc;  
 }
 
 .theme-base-blue .container a,
 .theme-base-blue .sidebar-toggle,
 .theme-base-blue .related-posts li a:hover {
-  color: #6a9fb5;
+  // color: #6a9fb5;
+ color: #78a8bc
 }
 
 /* Magenta */
