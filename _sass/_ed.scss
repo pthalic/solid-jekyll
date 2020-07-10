@@ -51,8 +51,10 @@ html {
 body {
   color: $text-color;
   //background-color: #fff;
-  background-color: #000000; 
-  color: #ffffff;
+  // background-color: #000000; 
+   background-color: #0c0c0c;
+  //color: #ffffff;
+  color: #fefefe;
   //color: #000000;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -117,7 +119,8 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
-  color: #ffffff;
+  // color: #ffffff;
+  color: #fefefe;
   font-weight: bold;
   //color: #000000;
 
@@ -792,7 +795,7 @@ li.prose-indent {
 .theme-base-blue .sidebar-toggle:active {
   // background-color: #6a9fb5;
  // background-color: #78a8bc;
-background-color: #7BB0B6;  
+ background-color: #7BB0B6;  
 }
 
 .theme-base-blue .container a,
@@ -827,3 +830,33 @@ background-color: #7BB0B6;
 .theme-base-brown .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* Custom Theme */
+
+.theme-base-red .sidebar,
+.theme-base-red .sidebar-toggle:active,
+.theme-base-red #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #011f4b	
+}
+
+.theme-base-red .container a,
+.theme-base-red .sidebar-toggle,
+.theme-base-red .related-posts li a:hover {
+   color: #4c8cb5;
+}
+
+body {
+  background-color: #000000;
+  color: #fefefe;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ color: #fefefe;
+}
+
+.masthead {
+
+background-color: #03396c;
+
+}
+
