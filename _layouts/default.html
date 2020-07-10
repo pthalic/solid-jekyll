@@ -2,8 +2,6 @@
 <html lang="en-us">
 
   {% include head.html %}
-  
-  
   <body class="theme-base-{{site.color-scheme}}">
 
     <!-- This if statement decides which sidebar to use -->
@@ -28,10 +26,13 @@
           <h3 class="masthead-title">
             <a href="{{ site.baseurl }}/" title="Home">{{ site.title | newline_to_br }}</a>
             <br><small>{{ site.tagline }}</small>
+            
+            <br/>
+
           </h3>
         </div>
       </header>
-
+      
       <main class="container content" id="main">
         {{ content }}
       </main>
