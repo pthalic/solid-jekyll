@@ -247,7 +247,7 @@ tbody tr:nth-child(odd) th {
   padding-top: 26px;
   padding-bottom: 1rem;
   text-align: center;
-  background-color: 03396c;
+  background-color: #03396c;
 }
 
 .masthead-title {
@@ -755,6 +755,19 @@ li.prose-indent {
   color: #ac4142;
 }*/
 
+.theme-base-red .sidebar,
+.theme-base-red .sidebar-toggle:active,
+.theme-base-red #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #011f4b	
+}
+
+.theme-base-red .container a,
+.theme-base-red .sidebar-toggle,
+.theme-base-red .related-posts li a:hover {
+   color: #4c8cb5;
+}
+
+
 /* Orange */
 .theme-base-orange .sidebar,
 .theme-base-orange .sidebar-toggle:active {
@@ -834,17 +847,6 @@ li.prose-indent {
 
 /* Custom Theme */
 
-.theme-base-red .sidebar,
-.theme-base-red .sidebar-toggle:active,
-.theme-base-red #sidebar-checkbox:checked ~ .sidebar-toggle {
-  background-color: #011f4b	
-}
-
-.theme-base-red .container a,
-.theme-base-red .sidebar-toggle,
-.theme-base-red .related-posts li a:hover {
-   color: #4c8cb5;
-}
 
 body {
   background-color: #000000;
