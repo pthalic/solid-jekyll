@@ -6,7 +6,7 @@ editor: Alex Gil
 rights: Public Domain
 source: Project Guttenberg
 tags: society
-category: Psychology 
+category: psychology 
 publication-date: 2016
 toc:
 - Title Page

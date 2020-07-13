@@ -4,7 +4,7 @@ title: Dreams
 author: Langston Hughes
 editor: Alex Gil
 source: Project Guttenberg
-category: Art History
+category: art history
 ---
 
 - Hold fast to dreams

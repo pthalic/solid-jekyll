@@ -34,17 +34,23 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  text-rendering: optimizeLegibility;
 }
 
 html {
-  font-family: $main-font;
+  // font-family: $main-font;
+  font-family: Cooper,Georgia,Cambria,Times New Roman,Times,serif;
   font-size: 1em; /* 16px; specify in ems to support text resizing in all browsers */
   line-height: 1.5;
+  -webkit-font-smoothing: subpixel-antialiased;
+
+// -moz-osx-font-smoothing: grayscale;
 }
 
 @media (min-width: 38em) {
   html {
     font-size: $regular-font-size;
+    
   }
 }
 
@@ -62,6 +68,8 @@ body {
  font-weight: 300;
  font-size: 19px;
  line-height: 1.75;
+ font-family: Cooper,Georgia,Cambria,Times New Roman,Times,serif;
+
 }
 
 .content {
@@ -105,8 +113,12 @@ body {
 /* Links */
 a, .text-title a {
   color: $link-color;
-  text-decoration: none;
+  text-decoration: underline;
+  font-family: Cooper,Georgia,Cambria,Times New Roman,Times,serif;
+
+
 }
+
 
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
@@ -116,7 +128,8 @@ a:focus {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: $heading-font;
+  font-family: Cooper,Georgia,Cambria,Times New Roman,Times,serif;
+  // font-family: $heading-font;
   margin-bottom: .5rem;
   font-weight: normal;
   color: $heading-color;
@@ -129,6 +142,7 @@ h1, h2, h3, h4, h5, h6 {
   //color: #000000;
 
 }
+
 
 h1,
 h1.text-title {
@@ -771,7 +785,7 @@ li.prose-indent {
 .theme-base-red .sidebar-toggle,
 .theme-base-red .related-posts li a:hover {
   // color: #4c8cb5;
-    color: #575656;
+    color: #F8F8F8;
     text-weight: bold
 }
 
@@ -857,24 +871,33 @@ li.prose-indent {
 
 
 body {
-//  background-color: #0c0c0c;
-//  color: #fefefe;
+  background-color: #000000;
+  color: #F8F8F8;
 
- background-color: #fff;
-  color: #000;
+// background-color: #fff;
+// color: #000000;
 font-weight: 300;
-color: #333;
+//color: #fefefe;
 }
 
 h1, h2, h3, h4, h5, h6 {
-// color: #fefefe;
- color: #333;
+ color: #F8F8F8;
+// color: #000000;
+
 }
 
 .masthead {
 
 // background-color: #03396c;
-background-color: #fff;
+background-color: #000000;
 
 }
+.active a:after {
+    content: '';
+    height: 2px;
+    background: black; 
+    display:block;
+    margin-top: 2px;
+}
+
 
