@@ -51,10 +51,10 @@ html {
 body {
   color: $text-color;
   //background-color: #fff;
-  background-color: #b3cde0; 
+  //background-color: #b3cde0; 
   // background-color: #0c0c0c;
   //color: #ffffff;
-  color: #fefefe;
+  //color: #fefefe;
   //color: #000000;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
   text-rendering: optimizeLegibility;
   // color: #ffffff;
-  color: #fefefe;
+  // color: #fefefe;
   font-weight: bold;
   //color: #000000;
 
@@ -251,7 +251,7 @@ tbody tr:nth-child(odd) th {
   padding-top: 26px;
   padding-bottom: 1rem;
   text-align: center;
-  background-color: #03396c;
+  //background-color: #03396c;
 }
 
 .masthead-title {
@@ -274,7 +274,7 @@ tbody tr:nth-child(odd) th {
   font-size: .88rem;
   font-weight: normal;
   letter-spacing: .05rem;
-  color: #ffffff;
+  //color: #ffffff;
 
 }
 
@@ -876,10 +876,5 @@ h1, h2, h3, h4, h5, h6 {
 // background-color: #03396c;
 background-color: #fff;
 
-}
-
-hr
-{
-background-color: #0c0c0c;
 }
 
