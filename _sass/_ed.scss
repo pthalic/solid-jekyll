@@ -54,6 +54,8 @@ html {
   }
 }
 
+
+
 body {
   color: $text-color;
   //background-color: #fff;
@@ -69,7 +71,11 @@ body {
  font-size: 19px;
  line-height: 1.75;
  font-family: Cooper,Georgia,Cambria,Times New Roman,Times,serif;
-
+ font-kerning: auto;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+ -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+    font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
 .content {
@@ -113,8 +119,10 @@ body {
 /* Links */
 a, .text-title a {
   color: $link-color;
-  text-decoration: underline;
+  // text-decoration: underline, dotted ;
   font-family: Cooper,Georgia,Cambria,Times New Roman,Times,serif;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
 
 
 }
@@ -123,7 +131,7 @@ a, .text-title a {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  text-decoration: underline;
+  // text-decoration: underline;
 }
 
 /* Headings */

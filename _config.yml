@@ -37,6 +37,7 @@ collections:
   culture:
     output: true
 
+  
 
 # Markdown specs
 markdown: kramdown

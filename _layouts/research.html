@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="introduction">
+   <!--  <p>These appendices contain explanations on the tools and frameworks used in the analysis. They may  also contain supplementary material on miscellaneous topics indirectly related to the main topic at hand.</p>-->
+     {{content}}
+</div>
+
+<!--<div class="toc">
+    <h2>Science</h2>
+    <ul class="texts">
+        {% for item in site.science %}
+        <li class="text-title">
+            <a href="{{ site.baseurl }}{{ item.url }}">
+                {{ item.title }}
+            </a>
+        </li>
+        {% else %}
+        <p>The collection is empty.</p>
+        {% endfor %}
+    </ul>
+</div>-->
+
+
+{% assign groups = site.texts | group_by:"category" %}
+{% for group in groups %}
+    <h2><b>{{group.name}}</b></h2>
+    {% for item in group.items %}
+            <li class="text-title">
+            <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+            </li>
+    {% endfor %}
+    
+{% endfor %}
