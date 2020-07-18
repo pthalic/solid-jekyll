@@ -39,7 +39,8 @@ body {
 
 html {
   // font-family: $main-font;
-  font-family: Cooper,Georgia,Cambria,Times New Roman,Times,serif;
+  // font-family: Cooper,Georgia,Cambria,Times New Roman,Times,serif;
+   font-family: freight-text-pro,times new roman,Times,serif;
   font-size: 1em; /* 16px; specify in ems to support text resizing in all browsers */
   line-height: 1.5;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -203,8 +204,8 @@ hr {
   position: relative;
   margin: 1.5rem 0;
   border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid #f8f8f8;
 }
 
 /* Search highlighting */
@@ -268,9 +269,9 @@ tbody tr:nth-child(odd) th {
 */
 
 .masthead {
-  border-bottom: 2px solid #eee;
+  border-bottom: 3px solid #f8f8f8;
   margin-bottom: 1.5rem;
-  padding-top: 26px;
+  padding-top: 36px;
   padding-bottom: 1rem;
   text-align: center;
   //background-color: #03396c;
