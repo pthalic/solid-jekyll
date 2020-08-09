@@ -24,7 +24,7 @@ layout: default
 
 {% assign groups = site.society | group_by:"category" %}
 {% for group in groups %}
-    <h2><b>{{group.name}}</b></h2>
+    <h2><b>[{{group.name}}]</b></h2>
     {% for item in group.items %}
             <li class="text-title">
             <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
