@@ -97,6 +97,7 @@ _In collaboration with KTH Royal Institute of Technology_ <br>
 - [**Translation Optimization based on Language Similarity**](https://www.researchgate.net/publication/342699316_Predicting_Translation_Performance_using_Language_Similarity): Machine Translation (a Seq2Seq TensorFlow model) was optimized based on the distance between the languages on the language tree.
 - [**Symptom Sorter**](https://github.com/pthalic/Symptom-Sorter): I have built a symptoms recommendation systems featuring simple probabilistic learning. 
 - [**Metacognitive System for Time Series Prediction**](https://github.com/pthalic/Prediction-with-Meta-Cognition): The online prediction model consists of a cognitive element (a single layer feedforward network) and a metacognitive layer that controls the hyperparameters of the network.  
+
 ---
 
 # **Programming Languages**
