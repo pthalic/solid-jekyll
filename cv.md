@@ -61,10 +61,10 @@ _Masters Thesis._<br>
 
 # **Experience**
 
-### **Keshav Electricals** `2020 - Present`
-_Electrical Engineer_<br>
+### **KTH Royal Institute of Technology** `2020 - Present`
+_Research Scientist_<br>
 
-### **PES University** `2019 - Present`
+### **PES University** `2018 - 2020`
 _Research Associate_<br>
 
 ### **Infosys** `2014 - 2015`
@@ -76,7 +76,7 @@ _Systems Engineer_<br>
 # **Current Projects**
 
 ### **Malaria**
-_In collaboration with PES Medical College, Kuppam_ <br>
+_In collaboration with Karolinska Institute and National Institute of Malaria Research_ <br>
 
 ### **Metacognition**
 _In collaboration with Center for Intelligent Systems, PES University, Bangalore_ <br>
