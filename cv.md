@@ -75,15 +75,14 @@ _Systems Engineer_<br>
 
 # **Current Projects**
 
-### **Malaria**
+### [**Malaria**](https://www.researchgate.net/publication/346090247_Malaria_History_and_Complexities)
 _In collaboration with Karolinska Institute and National Institute of Malaria Research_ <br>
+
+### [**Connectomics**](https://www.researchgate.net/publication/339552649_Introduction_to_Connectomics)
+_In collaboration with KTH Royal Institute of Technology_ <br>
 
 ### **Metacognition**
 _In collaboration with Center for Intelligent Systems, PES University, Bangalore_ <br>
-
-
-### **Connectomics**
-_In collaboration with KTH Royal Institute of Technology_ <br>
 
 
 ---
