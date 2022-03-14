@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Dreams
-category: 
+title: Anthills, Beehives and Complexity 
+category: complex systems
 ---
+
 
 
 
