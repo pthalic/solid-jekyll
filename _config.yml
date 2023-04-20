@@ -28,7 +28,7 @@ collections:
   texts:
     output: true
 
-  brain:
+  science:
     output: true
 
   society:
